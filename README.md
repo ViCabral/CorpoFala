@@ -1,4 +1,4 @@
-# CorpoFala
+# CorpoSim
 
-Projeto feito para quem quer ficar MONSTRO ! 
-BIRL
+Projeto desenvolvido para ajudar as pessoas a se tornarem 
+verdadeiros MONSTROS!
