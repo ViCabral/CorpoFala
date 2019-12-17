@@ -80,7 +80,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0rem;
+  color: #495057;
 }
 
 abbr[title],
@@ -364,7 +365,7 @@ h1, h2, h3, h4, h5, h6,
   margin-bottom: 0.5rem;
   font-weight: 500;
   line-height: 1.2;
-  font-family: 'Bungee', cursive;
+  font-family: 'Bungee';
   color: rgba(0, 0, 0, 0.9);
 }
 
@@ -397,6 +398,11 @@ h6, .h6 {
   height: auto;
 }
 
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
 .fa {
   margin-top: 20px;
   padding: 20px;
@@ -424,11 +430,14 @@ h6, .h6 {
   margin: 0 110px 30px 110px;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: 'Bungee', cursive;
-  color: rgba(0, 0, 0, 0.9);
+  font-family: 'Bungee';
+  color: #495057;
   font-weight: 400;
   letter-spacing: 2px;
-  text-transform: uppercase;
+}
+.footer-info p {
+  color: #1bb1dc;
+  font-family: 'Bungee';
 }
 
 .footer-description h3 {
@@ -2061,6 +2070,7 @@ textarea.form-control {
 }
 
 .form-group {
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 
