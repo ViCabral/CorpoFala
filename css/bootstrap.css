@@ -54,9 +54,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 
 body {
   margin: 0;
-  font-family: 'Bungee', cursive,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: 'Roboto', sans-serif,-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: medium;
   line-height: 1.5;
   color: azure;
   text-align: left;
@@ -363,9 +363,9 @@ template {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   margin-bottom: 0.5rem;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 1.2;
-  font-family: 'Bungee';
+  font-family: 'Roboto', sans-serif;
   color: azure;
 }
 
@@ -419,10 +419,10 @@ h6, .h6 {
   margin: 0px 20px 5px 20px;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: 'Bungee', cursive;
+  font-family: 'Roboto', sans-serif;
   color: azure;
-  font-weight: 400;
-  letter-spacing: 2px;
+  font-weight: bold ;
+  letter-spacing: 1px;
   text-transform: uppercase;
 }
 .footer-info h3 {
@@ -431,14 +431,27 @@ h6, .h6 {
   margin: 0 110px 30px 110px;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: 'Bungee';
+  font-family: 'Roboto', sans-serif;
   color: azure;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 .footer-info p {
   color: #1bb1dc;
-  font-family: 'Bungee';
+  font-family: 'Roboto', sans-serif;
+}
+
+.footer-description h2 {
+  text-align: left;
+  font-size: 15px;
+  margin: 10px 10px 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  font-family: 'Roboto', sans-serif;
+  color: azure;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .footer-description h3 {
@@ -447,7 +460,7 @@ h6, .h6 {
   margin: 10px 10px 10px 0;
   padding: 2px 0 2px 0;
   line-height: 1;
-  font-family: 'Bungee', cursive;
+  font-family: 'Roboto', sans-serif;
   color: azure;
   font-weight: 400;
   letter-spacing: 1px;
